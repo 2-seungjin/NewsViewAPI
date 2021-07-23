@@ -38,7 +38,7 @@ const NewsItem = ({ article }) => {
           </a>
         </div>
       )}
-      <div className="cntents">
+      <div className="contents">
         <h2>
           <a href={url} target='_blank' rel='noopener noreferrer'>
             {title}

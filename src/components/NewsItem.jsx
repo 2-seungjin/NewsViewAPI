@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const NewsItemBlock = styled.div`
   display: flex;
+  margin-bottom: 2rem;
   .thumbnail {
     margin-right: 1rem;
     img {
@@ -13,16 +14,16 @@ const NewsItemBlock = styled.div`
     }
   }
   .contents {
-    h2{
+    h2 {
       margin: 0;
-      a{
+      a {
         color: black;
       }
     }
     p {
       margin: 0;
       line-height: 1.5;
-      margin-top: .5rem;
+      margin: 0.5rem;
       white-space: normal;
     }
   }
